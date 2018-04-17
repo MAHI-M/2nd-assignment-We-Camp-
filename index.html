@@ -75,27 +75,33 @@
 </div>
 </div>
 </div>
-<div class="well" id="hgg">
+<body>
 
-  <div class="row" id="tgg">
-    <div class="col-md-3" id="fgg">FastFood</div>
-      <div class="col-md-3">Drinks </div>
-      <div class="col-md-3">Chiken </div>
-      <div class="col-md-3">Rice</div>
-<div class="images">
-  <div class="row" style="border:1px solid grey>
-    <div class="col-md-4"><img src="img/chickenBurger.jpg"></div>
-    <div class="col-md-4"><img src="img/beefBurger.jpg"></div>
-    <div class="col-md-4"><img src="img/chickenPizza.jpg"></div>
+   <div class="container-fluid" id="toggle">
+    <div class="row">
+      <div class="tab">
+      <button class="tablinks" onclick="openFood(event,'fastfood')"> Fast Food </button>
+      <button class="tablinks" onclick="openFood(event,'chicken')"> Chicken</button>
+      <button class="tablinks" onclick="openFood(event,'rice')"> Rice</button>
+      <button class="tablinks" onclick="openFood(event,'drinks')">Drinks </button>
+      <div id="fastfood" class="tabcontent">
+        <button class="col-md-3">Fast Food </button>
+      </div>
+    <div id="drinks" class="tabcontent">
+       <button class="col-md-3">Drinks </button>
+    </div>
+    <div id="chicken" class="tabcontent">
+       <button class="col-md-3">Chiken </button>
+    </div>
+   <div id="rice" class="tabcontent">
+      <button class="col-md-3">Rice </button>
+   </div>
+<div id="images">
+<div class="row" style="border"1px solid grey">
+<div  class="col-md-4"><img class="asd" src="img/chickenBurger.jpg"> </div>
+<div  class="col-md-4"><img class="asd" src="img/beefBurger.jpg"> </div>
+<div  class="col-md-4"><img class="asd" src="img/chickenPizza.jpg"> </div>
 </div>
-</div>
-<div class="row" id="chicken">
-<div class="col-md-4"><center>Chicken </center></div>
-<div class="col-md-4"><center>BeefBurger</center> </div>
-<div class="col-md-4"><center>Chicken </center></div>
-
-</div>
-
 </div>
 </div>
 <div class="well" id="abc">
@@ -117,29 +123,26 @@ I"ll highly recommended them:)</p>
 </div>
 </div>
 </div>
-<div class="container-fluid" id="sub-form">
-<h2><p>Get your daily food items delivered to your email</p></h2>
-<div class="email-form">
+<div class="container-fluid" id="ff">
+			<center><h3> <strong>Get our daily food items delivered to your Email</strong></h3>
 
-<input type="text" placeholder="Your EMail"> <a href="#" class="btn btn-bg danger">Subscribe</a>
+			<form>
+			<input type="email"  placeholder="Your Email" required>
+			<button id="sub"> Subscribe </button>
+			</form>
+			</center>
 </div>
+<div class="container-fluid" id="foot">
+		<footer>
+		<center>
+		<img class="flogo" src="img/logo_white.png">
+		 <h2>Menu</h2>
+		 </br>
+		 <p >That's Why We Are</p></center>
+		 <center><img src="img/twitter.png"> <img src="img/facebook.png"> <img src="img/pinterest.png"></center>
+		 <center> <p> 2018 Menu Resturant</p></center>
+		</footer>
 </div>
-<footer>
-<div class="card-footer"style="background-color:#fd7e14" >
-<center><img src="img/logo_white.png" class="responsive" class="img-thumbnail">
-<div class="Menu"><h1>MENU</h1>
-<center><p>Thats what We Are</p>
-<div class="socialicons">
-<img src="img/facebook.png" class="responsive" class="im-thumbnail" href="#">
-<img src="img/twitter.png" class="responsive" class="im-thumbnail" href="#">
-<img src="img/pinterest.png" class="responsive" class="im-thumbnail" href="#">
-<p>2016 Menu Restaurant</p>
-</center>
-</div>
-</div>
-</div>
-</footer>
-
 
   </body>
        <!--body ends here-->
