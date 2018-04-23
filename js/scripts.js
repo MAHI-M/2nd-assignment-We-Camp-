@@ -16,7 +16,7 @@ function openFood(event,cityName)
   for(i=0;i< tablinks.length;i++)
 
     {
-      tablinks[i].ClassName.replace=("active","");
+      tablinks[i].className.replace=("active","");
       }
 
       // Shoe the current tab, and add an "active" class to the button that open the tag //
