@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px&subset=latin-ext');
-
+/* header starts here */
 .slider {
     background-image:url(img/landing.jpg);
   	width:100%;
@@ -15,6 +15,7 @@
 .slider p{
   color:white
 }
+/* header ends here */
 #ffr{
   padding:5px;
 }
@@ -91,6 +92,7 @@ background-color:blue;
 
 }
 
+/* form starts here */
 #sub{
 	margin-right:-4px;
 	border:none;
@@ -127,11 +129,13 @@ form{
 	color:white;
 	padding-left:10px;
 }
+/* form ends here */
 
 .divider{
 	background-color:white;
 	height:6px;
 	}
+/* toggle container starts here */
 #toggle{
   background-image: url(img/foodsBg.jpg);
   background-size:cover;
@@ -191,6 +195,8 @@ form{
 }
 
 }
+/* toggle container starts here */
+/* footer starts here */
 img.a
 {
 	background-position:center;
@@ -212,3 +218,4 @@ img.a
   font-size: 20px;
 
 }
+/* footer ends here */
