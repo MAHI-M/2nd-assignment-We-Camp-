@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="styles.css" rel="stylesheet" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+      <title>Anita`s Kitchen</title>
+  </head>
+<!--body starts here-->
+<body>
+       <!--header starts here-->
+  <header>
+    <div class="slider">
+      <img src="img/logobig.png">
+      <h2><p>We Provide The Best Food </br>At the <span><strong>Right Price</strong></span></p></h2>
+    </div>
+  </header>
+  <!--header ends here-->
+<div class="container-fluid">
+    <div class="row">
+          <div class="col-md-3" id="main">
+            <div class="row" id="happy">
+                <div class="btn"  href="#">Happy Hour</div>
+            </div>
+            <div class="row" id="party">
+                <div class="btn"  href="#">Party Time</div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <img src="img/breakfast.jpg" >
+          </div>
+
+          <div class="col-md-3">
+            <img src="img/lunch.jpg" >
+          </div>
+
+          <div class="col-md-3">
+            <img src="img/dinner.jpg" >
+          </div>
+    </div>
+</div>
+
+<div class="divider"> </div>
+
+<div class="container">
+<div class="row" id="ffr">
+<div class="col" id="left">
+  <img src="img/fastfood1.jpg"> <img src="img/fastfood2.jpg">
+</div>
+<div class="col" id="right">
+<h2>Fast Food</h2>
+<h3>You will love our delicious Fast Food</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<a href="#" class="btn btn-primary">View gallery</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="row" id="ffr">
+<div class="col">
+<h2>Drinks</h2>
+<h3>We also produce delicious Drinks</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<a href="#" class="btn btn-primary">View gallery</a>
+</div>
+<div class="col">
+<img src="img/drink1.jpg">
+<img src="img/drink2.jpg">
+
+</div>
+</div>
+</div>
+
+
+   <div class="container-fluid" id="toggle">
+    <div class="row">
+      <div class="col-md-12"
+      <div class="tab">
+      <button class="tablinks" onclick="openFood(event,'fastfood')"> Fast Food </button>
+      <button class="tablinks" onclick="openFood(event,'chicken')"> Chicken</button>
+      <button class="tablinks" onclick="openFood(event,'rice')"> Rice</button>
+      <button class="tablinks" onclick="openFood(event,'drinks')">Drinks </button>
+    </div>
+  </div>
+    <div class="tabs-detail">
+      <div id="fastfood" class="tabcontent">
+        <img class="asd" src="img/chickenBurger.jpg" width="200"><img class="asd" src="img/beefBurger.jpg" width="200">
+        <img class="asd" src="img/chickenPizza.jpg" width="200">
+      </div>
+    <div id="chicken" class="tabcontent">
+       chicken
+         <img class="asd" src="img/chickenBurger.jpg" width="200"><img class="asd" src="img/beefBurger.jpg" width="200">
+         <img class="asd" src="img/chickenPizza.jpg" width="200">
+    </div>
+    <div id="rice" class="tabcontent">
+      <img class="asd" src="img/chickenBurger.jpg" width="200"><img class="asd" src="img/beefBurger.jpg" width="200">
+      <img class="asd" src="img/chickenPizza.jpg" width="200">
+    </div>
+   <div id="drinks" class="tabcontent">
+     <img class="asd" src="img/chickenBurger.jpg" width="200"><img class="asd" src="img/beefBurger.jpg" width="200">
+     <img class="asd" src="img/chickenPizza.jpg" width="200">   </div>
+</div>
+</div>
+</div>
+<div class="well" id="abc">
+<div class="cust">
+<div class="row">
+<div class="col-md-6">
+<div class="table"><h3> Our Happy Customers</h3>
+<h5> George Richard</h5><p> Great food Menu is awesome,there foods are not only great but also in the right price.
+I"ll highly recommended them:)</p>
+<center></div>
+<img src="img/p1.png">
+<img src="img/p2.png">
+<img src="img/p3.png">
+</div></center>
+<div class="col-md-6" style="border-left: 2px solid grey">
+<div class="table"><h5> About Menu</h5><p>We are menu a little team of 7 members.ut wisi enim It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid" id="ff">
+			<center><h3> <strong>Get our daily food items delivered to your Email</strong></h3>
+
+			<form>
+			<input type="email"  placeholder="Your Email" required>
+			<button id="sub"> Subscribe </button>
+			</form>
+			</center>
+</div>
+<div class="container-fluid" id="foot">
+		<footer>
+		<center>
+		<img class="flogo" src="img/logo_white.png">
+		 <h2>Menu</h2>
+		 </br>
+		 <p >That's Why We Are</p></center>
+		 <center><img src="img/twitter.png"> <img src="img/facebook.png"> <img src="img/pinterest.png"></center>
+		 <center> <p> 2018 Menu Resturant</p></center>
+		</footer>
+</div>
+
+</body>
+       <!--body ends here-->
+</html>
