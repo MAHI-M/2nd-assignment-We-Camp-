@@ -28,7 +28,12 @@ background-color:grey;
 height:50%;
 padding:0px;
 }
-#happy .btn{
+#happy:hover
+{
+background-color:blue;
+
+}
+#happy .btn:hover{
   align:center;
 }
 #party
@@ -37,6 +42,13 @@ padding:0px;
 	height: 50%;
   padding:0px
 
+}
+#party:hover
+{
+	background-color:blue;
+}
+#party .btn:hover{
+    align:center;
 }
     .card-header h2{
       padding-top: 60px;
