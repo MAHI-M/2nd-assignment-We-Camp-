@@ -10,8 +10,8 @@ wecamp,
 **{
   My name is Mahwish Mujahid, this is my second assignment in which I have developed this landing page by name Anitas kitchen.I have used HTML, CSS,BOOTSTRAP,JQUERY in it. The purpose to make this assignment as perfect as possible, is to develop and polish my knowledge of coding and I want other developers and users to know about me and my work.I am new to programming and this application contains all my info and background.}**
   ## setup requirement
-<li>go to
- <a href="https://github.com/MAHI-M/2nd-assignment-We-Camp-.git"></a>
+<li>
+ <a href="https://github.com/MAHI-M/2nd-assignment-We-Camp-.git">GO TO</a>
 
  ## known bugs
  **{none}**
